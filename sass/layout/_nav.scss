@@ -1,4 +1,14 @@
 @import "../abstracts/variables";
 .navbar {
+  min-height: 100px;
   background: $eerie-black;
+  ul.navbar-nav {
+    li.nav-item {
+      a.nav-link {
+        &:hover {
+          color: $fuzzi-wuzzy !important;
+        }
+      }
+    }
+  }
 }

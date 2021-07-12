@@ -1,0 +1,20 @@
+@import "../abstracts/variables";
+header.portada {
+  background-image: url("../../assets/img/post-image.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .portada__titulo {
+    color: $white;
+    text-align: center;
+    align-self: center;
+    font-family: $playfair;
+    font-size: $xx-large;
+    font-weight: bold;
+  }
+  .portada__icon {
+    text-align: center;
+    font-size: $m-large;
+    align-self: end !important;
+  }
+}

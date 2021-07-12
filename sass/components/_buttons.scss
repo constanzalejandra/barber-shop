@@ -1,0 +1,18 @@
+@import "../abstracts/variables";
+
+.barber-button {
+  background: $nickel;
+  border-radius: 30px;
+  padding: 15px;
+  border: none;
+  color: $white;
+}
+.barber-button-sm {
+  background: $nickel;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  color: $white;
+  font-size: $small;
+  margin-right: 5px;
+}

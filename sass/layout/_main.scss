@@ -1,0 +1,33 @@
+@import "../abstracts/variables";
+.main {
+  padding: 3em;
+  .main__fechapost {
+    color: $nickel;
+    font-family: $roboto;
+    font-size: 1.4em;
+  }
+  .main__parrafo {
+    color: $nickel;
+    font-family: $roboto;
+    font-size: 1.2em;
+    font-weight: 100;
+  }
+  .main__social {
+    button {
+      margin-top: 60px;
+    }
+  }
+  .main__info {
+    h1 {
+      font-family: $playfair;
+      font-weight: bold;
+    }
+    h4 {
+      font-weight: 100;
+    }
+    p {
+      font-weight: 100;
+      text-align: justify;
+    }
+  }
+}
